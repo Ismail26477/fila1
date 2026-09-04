@@ -1,12 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import bannerServices from "@/assets/banner-services.jpg";
-import ctaServices from "@/assets/cta-services.jpg";
 import service1 from "@/assets/service-1.jpg";
 import service2 from "@/assets/service-2.jpg";
 import service3 from "@/assets/service-3.jpg";
 import service4 from "@/assets/service-4.jpg";
 import { ButtonLink } from "@/components/site/Button";
-import { CtaBanner } from "@/components/site/CtaBanner";
 import { Faq } from "@/components/site/Faq";
 import { PageBanner } from "@/components/site/PageBanner";
 import { Reveal } from "@/components/site/Reveal";
@@ -163,10 +161,6 @@ function Services() {
 
       <Faq />
 
-      <CtaBanner
-        image={ctaServices}
-        alt="Analytical instruments lined up in a bright quality control laboratory"
-      />
     </>
   );
 }

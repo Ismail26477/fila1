@@ -1,8 +1,6 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
 import { ArrowLeft } from "lucide-react";
 import { ButtonLink } from "@/components/site/Button";
-import ctaProducts from "@/assets/cta-products.jpg";
-import { CtaBanner } from "@/components/site/CtaBanner";
 import { ProductCard } from "@/components/site/ProductCard";
 import { Reveal } from "@/components/site/Reveal";
 import { getProduct, products } from "@/data/products";
@@ -152,10 +150,6 @@ function ProductDetail() {
         </section>
       )}
 
-      <CtaBanner
-        image={ctaProducts}
-        alt="Sealed drums of active pharmaceutical ingredients in a warehouse"
-      />
     </>
   );
 }

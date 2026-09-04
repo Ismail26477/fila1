@@ -1,8 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import bannerAbout from "@/assets/banner-about.jpg";
 import aboutTeam from "@/assets/about-team.jpg";
-import ctaAbout from "@/assets/cta-about.jpg";
-import { CtaBanner } from "@/components/site/CtaBanner";
 import { LocationCards } from "@/components/site/LocationCards";
 import { PageBanner } from "@/components/site/PageBanner";
 import { Reveal } from "@/components/site/Reveal";
@@ -173,10 +171,6 @@ function About() {
         </div>
       </section>
 
-      <CtaBanner
-        image={ctaAbout}
-        alt="Pharmaceutical manufacturing facility exterior in warm evening light"
-      />
     </>
   );
 }

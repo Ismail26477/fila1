@@ -1,10 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Beaker, FlaskConical, ShieldCheck, Target } from "lucide-react";
-import ctaHome from "@/assets/cta-home.jpg";
 import homeAbout from "@/assets/home-about.jpg";
 import homeSupport from "@/assets/home-support.jpg";
 import { ButtonLink } from "@/components/site/Button";
-import { CtaBanner } from "@/components/site/CtaBanner";
 import { HeroSlider } from "@/components/site/HeroSlider";
 import { LocationCards } from "@/components/site/LocationCards";
 import { ProductCard } from "@/components/site/ProductCard";
@@ -305,10 +303,6 @@ function Home() {
         </div>
       </section>
 
-      <CtaBanner
-        image={ctaHome}
-        alt="Illuminated pharmaceutical manufacturing plant at night"
-      />
     </>
   );
 }
