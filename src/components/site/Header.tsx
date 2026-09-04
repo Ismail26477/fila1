@@ -2,7 +2,6 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { AnimatePresence, motion } from "motion/react";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import logo from "@/assets/logo.png.asset.json";
 import { company, nav } from "@/lib/site";
 import { cn } from "@/lib/utils";
 import { ButtonLink } from "./Button";
@@ -35,11 +34,11 @@ export function Header() {
       <div className="container-x flex h-18 items-center justify-between gap-4 py-3 md:h-20">
         <Link to="/" className="flex min-w-0 items-center" aria-label={`${company.name} — home`}>
           <img
-            src={logo.url}
-            alt={`${company.name} logo`}
+            src="/filament-logo.png"
+            alt="Filament Lifesciences Pvt Ltd logo"
             width={740}
             height={270}
-            className="h-9 w-auto md:h-11"
+            className="h-10 w-auto md:h-12"
           />
         </Link>
 
