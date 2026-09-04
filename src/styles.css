@@ -61,21 +61,21 @@
   --surface: #f1fcfa;
 
   --background: #ffffff;
-  --foreground: var(--ink);
+  --foreground: #000000;
   --card: #ffffff;
-  --card-foreground: var(--ink);
+  --card-foreground: #000000;
   --popover: #ffffff;
-  --popover-foreground: var(--ink);
+  --popover-foreground: #000000;
   --primary: var(--ink);
-  --primary-foreground: #ffffff;
+  --primary-foreground: #000000;
   --secondary: #e4faf7;
-  --secondary-foreground: var(--ink);
+  --secondary-foreground: #000000;
   --muted: #eaf9f7;
-  --muted-foreground: #55727a;
+  --muted-foreground: #000000;
   --accent: var(--brand-teal);
-  --accent-foreground: #005e58;
+  --accent-foreground: #000000;
   --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: #ffffff;
+  --destructive-foreground: #000000;
   --border: #cfeae6;
   --input: #b9ded9;
   --ring: var(--brand-teal);
@@ -147,7 +147,7 @@
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--ink-muted);
+  color: #000000;
 }
 
 @utility eyebrow-light {
@@ -158,7 +158,7 @@
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: var(--brand-teal);
+  color: #000000;
 }
 
 @utility shadow-soft {
